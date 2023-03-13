@@ -1,0 +1,38 @@
+{
+	"name": "shopping-cart-reduxtoolkit",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"format": "prettier --write .",
+		"lint": "eslint --fix . --ext .js,.jsx",
+		"db-users": "json-server --watch --port 3000 ./src/mockData/users.json",
+		"db-products": "json-server --watch --port 3001 ./src/mockData/products.json"
+	},
+	"dependencies": {
+		"@reduxjs/toolkit": "^1.9.3",
+		"bootstrap": "^5.2.3",
+		"json-server": "^0.17.2",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-redux": "^8.0.5",
+		"react-router-dom": "^6.8.2"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.27",
+		"@types/react-dom": "^18.0.10",
+		"@vitejs/plugin-react-swc": "^3.0.0",
+		"eslint": "^8.35.0",
+		"eslint-config-prettier": "^8.7.0",
+		"eslint-config-standard": "^17.0.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-n": "^15.6.1",
+		"eslint-plugin-promise": "^6.1.1",
+		"eslint-plugin-react": "^7.32.2",
+		"prettier": "^2.8.4",
+		"vite": "^4.1.0"
+	}
+}
